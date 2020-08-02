@@ -15,7 +15,7 @@
 
 Submitted by: **Kat Kime**
 
-Time spent: **2** hours spent in total
+Time spent: **3** hours spent in total
   - Last Update: 8/2/20 [(View My Progress)](https://twitter.com/katexcellence/status/1289978879830970369)
 
 ## User Stories
