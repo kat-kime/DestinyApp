@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/tvHabit"
+        android:layout_width="256dp"
+        android:layout_height="42dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="5dp"
+        android:text="Wash Dishes"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/bvCompletedHabit"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="5dp"
+        android:layout_toEndOf="@+id/tvHabit"
+        android:backgroundTint="#4CAF50"
+        android:text="+"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/bvDNCompleteHabit"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="5dp"
+        android:layout_toEndOf="@+id/bvCompletedHabit"
+        android:backgroundTint="#F44336"
+        android:text="-"
+        android:textSize="24sp" />
+</RelativeLayout>
